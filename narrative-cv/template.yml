@@ -1,0 +1,87 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/roaldarbol/academicv/main/cv.typ.schema.json
+
+# Document settings
+settings:
+  font_heading: "Libertinus Serif"
+  font_body: "Libertinus Serif"
+  fontsize: 10pt      # Must be a string with unit
+  spacing_section: 12pt  # Space between sections. Must be a string with unit
+  spacing_entry: 0.1em  # Space between entries within a section. Must be a string with unit
+  spacing_element: 3pt  # Space between elements within an entry. Must be a string with unit
+  spacing_line: 5pt      # Space between lines within an element. Must be a string with unit
+  color_hyperlink: rgb(230, 130, 87)   # Can be either a colour string or a rgb() value
+  page:
+    paper: "a4"
+    numbering: "1 / 1"
+    number-align: "center"  # Must be "center", "left", or "right"
+    margin: 3.5cm        # Must be a string with unit
+
+# Personal information
+personal:
+  name: Mikkel Roald-Arbøl
+  titles:
+    - Doctoral Researcher in Computational ethology
+  location:
+    city: Copenhagen
+    # region: Copenhagen
+    country: Denmark
+  contact:
+    email: mikkel@roald-arboel.com
+    # phone: (+45) 20320399
+    website: https://roald-arboel.com
+  profiles:
+    - network: GitHub
+      username: roaldarbol
+      url: https://github.com/roaldarbol
+
+# Section definitions and content
+sections:
+  - key: personal
+    layout: header
+    show: true
+    include: ["titles", "location", "contact"]
+    # No entries or title for personal - uses the top-level personal section
+
+  - key: statement
+    layout: prose
+    title: Personal statement
+    show: true
+    entries:
+      # Provide a personal statement that reflects on your overarching goals and motivation for the activities in which you have been involved.
+      - "There are two overarching themes that guide my work: *First, discovering more about the origins of conscious experiences*. My curiosity has led me a long way, from studying human motor learning to contemplating how awareness has emerged from collective activity of neurons as brains have evolved. Guided by an appreciation of the comparative perspective, my aim is to use quantification of movement and behaviour to provide insight into the internal world of animals. My work on behavioural states and sleep in insects has been my first step towards this goal."
+      - "*Secondly, I hope to be part of making science more open and accessible*. I am a strong advocate for open science, and collaborate on developing open research tools, both hardware and software. My goal is to contribute towards a future where open research tools are widely available, both through development and teaching colleagues and students how to use these tools. The excitement of helping pave the way for future work on non-model species, a more diverse, comparative neuroscience by developing accessible, customisable, low-cost solutions for neuroscientific research and beyond is a major motivation in my day-to-day work."
+
+  - key: module-1
+    layout: prose
+    title: "Module 1: How have you contributed to the generation of knowledge?"
+    show: true
+    entries:
+      # This module can be used to explain how you have contributed to the generation of new ideas and hypotheses and which key skills you have used to develop ideas and test hypotheses. It can be used to highlight how you have communicated on your ideas and research results, both written and verbally, the funding you have won and any awards that you have received. It can include a small selection of outputs, with a description of why they are of particular relevance and why they are considered in the context of knowledge generation. Outputs can include open data sets, software, publications, commercial, entrepreneurial or industrial products, clinical practice developments, educational products, policy publications, evidence synthesis pieces and conference publications that you have generated. Where outputs have a DOI please only include this.
+      - "Early in my PhD developed skills that would allow me to design the experiments I desired; how to record high-quality videos, how to design 3D printed equipment, how to obtain detailed behavioural data and how to handle the big data that results. Striving to make my work as open and useful to others as possible, I have made contributions across the research cycle, from developing hardware and software for performing experiments, through packages for analysis of animal behaviour, to tools to improve preprint publications. One example is the _AniScope_, a modular hardware setup that allows researchers to collect a variety of videos of small animals which has led to its adoption in two other research groups at Sussex (led by Dr. Beth Nicholls and Dr. Wiebke Schuett), working on metabolic rate in bees, ground beetles and glow worms. In recognition of my open source contributions I won the Sussex Doctoral Open Research Award in 2022. Similarly, I have started development on an R package (_animovement_) for the analysis of movement from a range of tracking tools, guided by principles of interoperability and universal data standards."
+      - "My early work on describing behavioural states in ground beetles has been highly interdisciplinary, combining computational ethology with behavioural ecology. My first results related to individuality, showing that duration of sleep is highly individual, a novel finding for any invertebrate animal. I presented this work at the 2022 Neuroethology conference in Lisbon as a poster, and this year (2023) as a talk at the Behaviour 2023 conference in Bielefeld, Germany. I am submitting my PhD thesis, titled 'Exploring Animal Behaviour across Timescales, from Movement to Metabolism' in 2025."
+
+  - key: module-2
+    layout: prose
+    title: "Module 2: How have you contributed to the development of individuals?"
+    show: true
+    entries:
+      # This module can be used to highlight expertise you provided which was critical to the success of a team or team members including project management, collaborative contributions, and team support. It can include your teaching activities, workshops or summer schools in which you were involved (for undergrads, grads and post-grads as well as junior colleagues), and the supervision of students and colleagues. It can be used to mention mentoring of members in your field and support you provided to the advancement of colleagues, be it junior or senior. It can be used to highlight the establishment of collaborations, from institutional (maybe interdisciplinary) to international. It can be used to describe where you exerted strategic leadership, how you shaped the direction of a team, organisation, company or institution. 
+      - "During my PhD I have been fortunate to both teach and supervise students. I have been teaching statistics and R to undergraduates, masters students and doctoral researchers and taught on multiple field courses in Coastal Ecology and Mediterranean Ecology. I co-supervised an Erasmus student with Prof. Jeremy Niven, helping them develop their own experiments as well as helping me with mine. Additionally, I co-supervised an undergraduate with Dr. André Maia Chagas on an open hardware project. I assisted the student with coding and wiring of their electronics project, gave feedback on their presentation, and finally was on the presentation examination panel for them and their fellow students."
+      - "I also go to great lengths to help other lab members with their research, techniques and systems development. This has included providing suggestions for tracking animals and developing 3D printed designs for their experiments, and discussing future research proposals surrounding animal cognition and behavioural ecology."
+
+  - key: module-3
+    layout: prose
+    title: "Module 3: How have you contributed to the wider research community?"
+    show: true
+    entries:
+      # This module can include various activities you have engaged in to progress the research community. It can be used to mention commitments including editing, reviewing, refereeing, committee work and your contributions to the evaluation of researchers and research projects. It can be used to mention the organisation of events that have benefited your research community. It can highlight contributions to increasing research integrity, and improving research culture (gender equality, diversity, mobility of researchers, reward and recognition of researchers’ various activities). It can be used to mention appointments to positions of responsibility such as committee membership and corporate roles within your department, institution or organisation, and recognition by invitation within your sector.
+      - "When I arrived at my current university, University of Sussex, I was motivated to contribute first and foremost to our local research community. Since then, I have served on various committees, including two years on the Doctoral Studies Board, the highest committee relating to doctoral researchers. During this time I was proud to raise issues on behalf of our community, e.g. the need for PhDs to be adopted as members of staff and of issues around poor mental health amongst doctoral researchers. To contribute scientifically, I furthermore hosted multiple speakers for Sussex Neuroscience seminars."
+      - "In a time where many journals have format-free submissions, I saw a need for creating beautiful preprints quickly and flexibly, with few modifications. The result was a LaTeX preprint template: _LaPreprint_. It really resonated with the wider scientific community, reaching over 250.000 people and got 500 stars on Github (a software repository). At the time of writing, at least 11 preprints have been published using LaPreprint."
+
+  - key: module-4
+    layout: prose
+    title: "Module 4: How have you contributed to broader society?"
+    show: true
+    entries:
+      # This module can include examples of societal engagement and knowledge exchange. It can include engagement with industry and the private sector. It can be used to mention engagement with the public sector, clients and the broader public. It can be used to highlight positive stakeholder feedback, inclusion of patients in processes and clinical trials, and other impacts across research, policy, practice and business. It can be used to mention efforts to collaborate with particular societal or patient groups. It can be used to highlight efforts to advise policy-makers at local, national or international level and provide information through the press and on social media.
+      - "In January 2023, I co-organised the _'Life Perceives_ symposium, an interdisciplinary art and science symposium, which brought different perspectives on sensation and perception, from single cells to vertebrates. Due to the broad nature of the symposium, it also attracted local residents and politicians. As for showcasing my own research, I recently presented my hardware developments in a public outreach session at the British Neuroscience Association (BNA) festival in Brighton."
