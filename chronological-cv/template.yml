@@ -2,14 +2,14 @@
 
 # Document settings
 settings:
-  font_heading: "Libertinus Serif"
-  font_body: "Libertinus Serif"
+  font-heading: "Libertinus Serif"
+  font-body: "Libertinus Serif"
   fontsize: 10pt      # Must be a string with unit
-  spacing_section: 12pt  # Space between sections. Must be a string with unit
-  spacing_entry: 0.1em  # Space between entries within a section. Must be a string with unit
-  spacing_element: 3pt  # Space between elements within an entry. Must be a string with unit
-  spacing_line: 5pt      # Space between lines within an element. Must be a string with unit
-  color_hyperlink: rgb(230, 130, 87)   # Can be either a colour string or a rgb() value
+  spacing-section: 12pt  # Space between sections. Must be a string with unit
+  spacing-entry: 0.1em  # Space between entries within a section. Must be a string with unit
+  spacing-element: 3pt  # Space between elements within an entry. Must be a string with unit
+  spacing-line: 5pt      # Space between lines within an element. Must be a string with unit
+  color-hyperlink: rgb(230, 130, 87)   # Can be either a colour string or a rgb() value
   page:
     paper: "a4"
     numbering: "1 / 1"
@@ -20,7 +20,7 @@ settings:
 personal:
   name: Mikkel Roald-Arbøl
   titles:
-    - Doctoral Researcher in Computational ethology
+    - Doctoral Researcher in Computational Ethology
   location:
     city: Copenhagen
     # region: Copenhagen
@@ -44,74 +44,74 @@ sections:
 
   - key: education
     layout: timeline
-    primary_element: ["institution"]
-    secondary_element: ["title"]
+    primary-element: ["institution"]
+    secondary-element: ["title"]
     title: Education
     show: true
     entries:
       - institution: University of Sussex
         location: Brighton, UK
         title: Ph.D. in Biology
-        start_date: 2020
-        end_date: Present
+        start-date: 2020
+        end-date: Present
       - institution: University of Copenhagen
         location: Copenhagen, DK
         title: M.Sc. in Human Biology
-        start_date: 2017
-        end_date: 2019
+        start-date: 2017
+        end-date: 2019
       - institution: University of Copenhagen
         location: Copenhagen, DK
         title: B.Sc. in Exercise and Sports Sciences
-        start_date: 2013
-        end_date: 2016
+        start-date: 2013
+        end-date: 2016
 
   - key: experience
     layout: timeline
-    primary_element: ["institution"]
-    secondary_element: ["advisors"]  # Explicitly include advisors at secondary level
-    tertiary_element: ["description"]
+    primary-element: ["institution"]
+    secondary-element: ["advisors"]  # Explicitly include advisors at secondary level
+    tertiary-element: ["description"]
     title: Experience
     show: true
     entries:
       - institution: University of Sussex
         advisors: ["Jeremy Niven"]
-        start_date: 10/2020
-        end_date: 2/2025
+        start-date: 10/2020
+        end-date: 2/2025
         description: |
-          Some long text describing what I did for this project.
+          During my Ph.D. project, my main focus was on behavioural classification, individuality and respiration using the ground beetle Nebria brevicollis.  
       - institution: University of Copenhagen
-        advisors: ["Rune W. Berg", "Tom Cat"]
-        start_date: 10/2019
-        end_date: 1/2020
+        advisors: ["Rune W. Berg"]
+        start-date: 10/2019
+        end-date: 1/2020
         description: |
-          Some more text
+          During the internship, I developed a prototype for an open source operant conditioning chamber for rodents based on a single board computer (Raspberry Pi), programmable in Python.
       - institution: University of Sussex
         advisors: ["Jeremy Niven"]
-        start_date: 9/2018
-        end_date: 8/2019
+        start-date: 9/2018
+        end-date: 8/2019
         description: |
-          Some more text
+          In my M.Sc. dissertation project, I investigated whether wood ants relied on visual clues, especially optical flow, to adjust their walking speed. As part of the project, I helped develop a virtual reality trackball system where we could experimentally manipulate the optical flow.
       - institution: University of Queensland
         advisors: ["Timothy Carroll"]
-        start_date: 1/2017
-        end_date: 5/2017
+        start-date: 1/2017
+        end-date: 5/2017
         description: |
-          Some more text
+          Working as a research assistant, I helped on a host of projects. From developing an experimental setup for investigating the existence of express reaching movements (akin to express saccades), to pilot experiments aiming to test optimal control theory for perturbation during force application, and conducting experiments on force field adaptation.
       - institution: University of Queensland
         advisors: ["Luke Kelly"]
-        start_date: 9/2016
-        end_date: 12/2016
+        start-date: 9/2016
+        end-date: 12/2016
         description: |
-          Some more text
+          As a research assistant, I worked on foot neuromechanics assisting with processing a large data set containing 3D bone models and X-ray scans, and pilot testing a setup that combined ultrasound imaging, force application and local anaesthetic to nerves in the lower limb.
       - institution: University of Copenhagen
         advisors: ["Jesper Lundbye-Jensen"]
-        start_date: 9/2015
-        end_date: 12/2016
+        start-date: 1/2015
+        end-date: 6/2016
         description: |
-          Some more text
+          During my B.Sc., I did two projects with Jesper Lundbye. First, I investigated whether motor learning was accompanied by changes in excitability of the M1 cortical region. In the latter, I did a meta-analysis on single nucleotide polymorphisms (SNPs) associated with better learning and memory retention by combining genetic data with behavioural data from over 100 participants across multiple motor learning tasks.
 
   - key: publications
-    layout: numbered_list
+    layout: numbered-list
     title: Publications
     show: true
     entries:
@@ -123,85 +123,88 @@ sections:
 
   - key: teaching
     layout: timeline
-    primary_element: ["title", "institution"]
-    secondary_element: ["professors"]  # Explicitly include advisors at secondary level
-    tertiary_element: ["description"]
+    primary-element: ["title", "institution"]
+    secondary-element: ["professors"]  # Explicitly include advisors at secondary level
+    tertiary-element: ["description"]
     title: Teaching
     show: true
     entries:
       - institution: University of Sussex
-        title: Mediterranean Ecology Field Course
+        title: Mediterranean Ecology Field Course (827C1)
         professors: ["Paul Graham", "Valentina Scarponi"]
-        start_date: 2024
+        start-date: 2024
         description: |
-          Some more text
+          At the field site in Arrifana, Portugal, I helped students with their ecology projects along the coast, both animal and plant, from the experimental design, transportation and how to carry out their data analysis.
       - institution: University of Sussex
-        title: Coastal Ecology Field Course
+        title: Coastal Ecology Field Course (C7160)
         professors: ["Claudia Drees"]
-        start_date: 2022
-        end_date: 2024
+        start-date: 2021
+        end-date: 2024
         description: |
-          Some more text
+          Over multiple years I taught on this course at the Dale Fort in Pembrokeshire, Wales, covering all the main coastal ecosystems. I helped students with planning experimental designs and data analysis in R.
       - institution: University of Sussex
-        title: Statistics
-        professors: ["Jane", "Luc"]
-        start_date: 2022
-        end_date: 2024
+        title: Research Foundations (828C1)
+        professors: ["Ane Timenes Laugen", "Luc Bussière"]
+        start-date: 2021
+        end-date: 2023
         description: |
-          Some more text
+          In this course, aimed at M.Sc. and Ph.D. students, I helped students during a full-time week focused on R and statistics, covering topics from basic data wrangling all the way to linear mixed effects models.
       - institution: University of Sussex
-        title: Research Methods
+        title: Research Methods in Biology, Ecology, Zoology (C1021)
         professors: ["Wiebke Schuett"]
-        start_date: 2021
-        end_date: 2022
+        start-date: 2021
+        end-date: 2022
         description: |
-          Some more text
+          I was a doctoral tutor on this first-year undergraduate course, helping students learn R and basic statistics during weekly practical sessions.
       - institution: University of Copenhagen
         title: Athletics 1 & 2
         professors: ["Mikkel Sørensen", "Birger Fisker"]
-        start_date: 2015
-        end_date: 2016
+        start-date: 2015
+        end-date: 2016
         description: |
-          Some more text
+          I was a teaching assistant in athletics which covered multiple disciplines. This entailed both practical feedback during technical sessions as well as helping students in biomechanical analysis of various events.
 
   - key: awards
     layout: timeline
-    primary_element: ["title", "institution"]
-    tertiary_element: ["description"]
+    primary-element: ["title", "institution"]
+    tertiary-element: ["description"]
     title: Scholarships & Awards
     show: true
     entries:
       - institution: Janelia Research Campus
         title: Junior Scientist Workshop in Mechanistic Cognitive Neuroscience 
-        start_date: 2023
+        start-date: 2023
         description: |
           Highly competitive workshop that also covered all expenses, including flights and accommodation.
       - institution: University of Sussex
-        title: "Sussex Life Sciences PhD Symposium: Best talk"
-        start_date: 2023
+        title: "Sussex Life Sciences Ph.D. Symposium: Best talk"
+        start-date: 2023
+        description: |
+          For the Life Sciences Ph.D. Symposium, I presented work on sleep in insects; the presentation was supposed to be accessible and engaging to a non-specialist audience.
       - institution: The Association for the Study of Animal Behaviour
         title: Travel Grant
-        start_date: 2023 
+        start-date: 2023 
       - institution: Sussex Neuroscience PG Fund
         title: Travel Grant
-        start_date: 2023
+        start-date: 2023
       - institution: University of Sussex
         title: Sussex Doctoral Open Research Prize
-        start_date: 2022
+        start-date: 2022
         description: |
-          This inaugural award was awarded to postgraduate researchers for an extraordinary effort in promoting open research practices. With the award came two months extra PhD funding.
+          This inaugural award was awarded to postgraduate researchers for an extraordinary effort in promoting open research practices. With the award came two months extra Ph.D. funding.
 
-      - institution: Art in Science Photo Competition, 
-        title: Best Instrument, _Art in Science Photo Competition_
-        start_date: 2019
+      - institution: University of Copenhagen
+        title: Best Instrument, Art in Science Photo Competition
+        start-date: 2019
         description: |
-          Highly competitive workshop that also covered all expenses, including flights and accommodation.
+          This scientific photography competition hosted by University of Copenhagen had multiple categories, and I won "Best Instrument" with my entry "Where to next?" which depicted a wood ant walking on a trackball. The picture can be found here: https://artis.ku.dk/previous-contests/.
 
       - institution: Erasmus+, Knud Højgaards Fond, Fam. Hede Nielsen Fond, Oticon Fonden
         title: Travel Grants
-        start_date: 2018
+        start-date: 2018
         description: |
-          To be able to do my M.Sc thesis at University of Sussex, I secured several competitive travel grants totalling 25.000DKK (Knud H.), 7.500DKK (Fam. Hede Nielsen), 13.500DKK (Oticon), 23.388DKK (Erasmus+) 59.388DKK
+          To be able to do my M.Sc. thesis at University of Sussex, I secured several competitive travel grants totalling 60.000DKK (~$8700).
+        # - (Knud H.: 25.000DKK), (Fam. Hede Nielsen: 7.500DKK), 13.500DKK (Oticon), 23.388DKK (Erasmus+) 
 
 # skills:
 #   - category: Soft Skills
