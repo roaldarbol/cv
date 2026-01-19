@@ -3,5 +3,5 @@
 To compile:
 
 ```sh
-typst compile chronological-cv/template.tml
+typst compile chronological-cv/template.yml
 ```
