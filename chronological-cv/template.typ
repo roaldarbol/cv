@@ -1,4 +1,4 @@
-#import "@preview/academicv:1.0.0": *
+#import "@preview/academicv:1.1.0": *
 
 // Import your CV data
 #let cv-data = yaml("template.yml")
