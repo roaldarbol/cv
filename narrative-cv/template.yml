@@ -20,13 +20,13 @@ settings:
 personal:
   name: Mikkel Roald-Arbøl
   titles:
-    - Doctoral Researcher in Computational ethology
+    - Postdoctoral Researcher in Computational ethology
   location:
-    city: Copenhagen
+    city: Bonn
     # region: Copenhagen
-    country: Denmark
+    country: Germany
   contact:
-    email: mikkel@roald-arboel.com
+    email: science@roald-arboel.com
     # phone: (+45) 20320399
     website: https://roald-arboel.com
   profiles:

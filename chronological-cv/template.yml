@@ -20,13 +20,13 @@ settings:
 personal:
   name: Mikkel Roald-Arbøl
   titles:
-    - Doctoral Researcher in Computational Ethology
+    - Postdoctoral Researcher in Computational Ethology
   location:
-    city: Copenhagen
+    city: Bonn
     # region: Copenhagen
-    country: Denmark
+    country: Germany
   contact:
-    email: mikkel@roald-arboel.com
+    email: science@roald-arboel.com
     # phone: (+45) 20320399
     website: https://roald-arboel.com
   profiles:
@@ -53,7 +53,7 @@ sections:
         location: Brighton, UK
         title: Ph.D. in Biology
         start-date: 2020
-        end-date: Present
+        end-date: 2025
       - institution: University of Copenhagen
         location: Copenhagen, DK
         title: M.Sc. in Human Biology
@@ -73,6 +73,12 @@ sections:
     title: Experience
     show: true
     entries:
+      - institution: University of Bonn
+        advisors: ["Daniela Rößler"]
+        start-date: 11/2025
+        end-date: Present
+        description: |
+          I currently work on an experimental and computational pipeline to enable real-time behavioural segmentation, focusing on sleep stage segmentation in the jumping spider, Portia fimbriata. This work encompasses data collection methods, including electronics for closed-loop experiments, through data processing and behaviour segmentation.
       - institution: University of Sussex
         advisors: ["Jeremy Niven"]
         start-date: 10/2020
@@ -115,11 +121,13 @@ sections:
     title: Publications
     show: true
     entries:
-      - "*Roald-Arbøl, M.*, Yarwood, E., Fernandes, A. S. D., Moubarak, E. M., Drees, C., Schuett, W., & Niven, J. E. (2025). A Low-Cost Trackball System for Automated Movement Capture Allowing Assessment of the Repeatability of Movement for Behavioural Ecology. _In prep_"
+      - "Roald-Arbøl M, Yarwood E, David Fernandes AS, Moubarak EM, Drees C, Niven JE, Schuett W. 2025. Using a Low-Cost Trackball System to Assess Repeatability of Movement in Small Animals. _Ecology and Evolution_ 15:e72535. DOI: https://doi.org/10.1002/ece3.72535"
+
+      - "Geiger N, Hirschkorn C, Herberstein ME, Roald-Arbøl M, Rößler DC. 2025. Context-dependent abdomen bobbing in a jumping spider: a dynamic visual signal. _bioRxiv_. DOI: https://doi.org/10.1101/2025.10.01.679781"
+
+      - "Verbinnen, G., *Roald-Arbøl, M.*, Niven, J. E., & Nicholls, E. (2024). Shifts in honeybee worker metabolism immediately post-eclosion (p. 2024.12.01.622772). _bioRxiv_. DOI: https://doi.org/10.1101/2024.12.01.622772"
 
       - "Sobianin, I., Ngotho, S. G., Spector, M. B., *Roald-Arbøl, M.*, Vignal, E., Perineti, C. L., Ellison, L., Al Balush, S., Carriero, A., Eley, M., Cozan, M., Demirbatir, C., Dominiak, S. E., Janiak, F., Frazao, J., Maravall, M., Lagnado, L., Schröder, S., Kemenes, G., Baden T., Niven J. E., King S., Nowotny T., Chagas, A. M. (2025). BeeHive: A flexible open electronics platform for designing research equipment. _In prep_"
-
-      - "Verbinnen, G., *Roald-Arbøl, M.*, Niven, J. E., & Nicholls, E. (2024). Shifts in honeybee worker metabolism immediately post-eclosion (p. 2024.12.01.622772). _bioRxiv_. https://doi.org/10.1101/2024.12.01.622772"
 
   - key: teaching
     layout: timeline
@@ -205,6 +213,45 @@ sections:
         description: |
           To be able to do my M.Sc. thesis at University of Sussex, I secured several competitive travel grants totalling 60.000DKK (~$8700).
         # - (Knud H.: 25.000DKK), (Fam. Hede Nielsen: 7.500DKK), 13.500DKK (Oticon), 23.388DKK (Erasmus+) 
+
+  - key: courses
+    layout: timeline
+    primary-element: ["title", "institution"]
+    tertiary-element: ["description"]
+    title: Courses & Workshops
+    show: false
+    entries:
+      - institution: Janelia Research Campus
+        title: Junior Scientist Workshop in Mechanistic Cognitive Neuroscience 
+        start-date: 2023
+        description: |
+          This workshop brought together 20 young researchers from across the world where we presented our work and ideas as both talks and posters, discussed the directions in which neuroscience should be heading and what the important open questions are.
+      - institution: Neuromatch Academy
+        title: Computational Neuroscience
+        start-date: 2021
+        description: |
+          3-week course in computational neuroscience, covering methods in machine learning, dynamical systems and stochastic processes.
+      - institution: University of Sussex
+        title: Mathematics and Computational Methods for Complex Systems
+        start-date: 2020
+        description: |
+          I followed this MSc module in advanced mathematics, that covered linear algebra and dynamical systems.
+      - institution: University of Sussex
+        title: Science, Institutions and Power
+        start-date: 2020
+        description: |
+          This course placed science in a political context and through seminars, we discussed 
+
+  - key: presentations
+    layout: timeline
+    primary-element: ["title", "institution"]
+    tertiary-element: ["description"]
+    title: Presentations
+    show: false
+    entries:
+      - institution: Congress of Neuroethology
+        title: 
+        
 
 # skills:
 #   - category: Soft Skills
